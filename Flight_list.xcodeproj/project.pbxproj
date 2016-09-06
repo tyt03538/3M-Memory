@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE52F53F1D7E78FC005AB334 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52F53E1D7E78FC005AB334 /* TestView.swift */; };
 		FC3907B31D7E6B3B00A2F623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907B21D7E6B3B00A2F623 /* AppDelegate.swift */; };
 		FC3907B81D7E6B3B00A2F623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3907B61D7E6B3B00A2F623 /* Main.storyboard */; };
 		FC3907BA1D7E6B3B00A2F623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3907B91D7E6B3B00A2F623 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE52F53E1D7E78FC005AB334 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		FC3907AF1D7E6B3B00A2F623 /* Flight_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flight_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3907B21D7E6B3B00A2F623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC3907B71D7E6B3B00A2F623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				FC3907B91D7E6B3B00A2F623 /* Assets.xcassets */,
 				FC3907BB1D7E6B3B00A2F623 /* LaunchScreen.storyboard */,
 				FC3907BE1D7E6B3B00A2F623 /* Info.plist */,
+				CE52F53E1D7E78FC005AB334 /* TestView.swift */,
 			);
 			path = Flight_list;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				FC3907E51D7E738200A2F623 /* ViewController.swift in Sources */,
 				FC3907B31D7E6B3B00A2F623 /* AppDelegate.swift in Sources */,
+				CE52F53F1D7E78FC005AB334 /* TestView.swift in Sources */,
 				FC3907E31D7E730E00A2F623 /* masterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +497,7 @@
 				FC3907D91D7E6B3B00A2F623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3907DA1D7E6B3B00A2F623 /* Build configuration list for PBXNativeTarget "Flight_listTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +506,7 @@
 				FC3907DC1D7E6B3B00A2F623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3907DD1D7E6B3B00A2F623 /* Build configuration list for PBXNativeTarget "Flight_listUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +515,7 @@
 				FC3907DF1D7E6B3B00A2F623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
