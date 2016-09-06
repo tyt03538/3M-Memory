@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FC3907B31D7E6B3B00A2F623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907B21D7E6B3B00A2F623 /* AppDelegate.swift */; };
-		FC3907B51D7E6B3B00A2F623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907B41D7E6B3B00A2F623 /* ViewController.swift */; };
 		FC3907B81D7E6B3B00A2F623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3907B61D7E6B3B00A2F623 /* Main.storyboard */; };
 		FC3907BA1D7E6B3B00A2F623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3907B91D7E6B3B00A2F623 /* Assets.xcassets */; };
 		FC3907BD1D7E6B3B00A2F623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3907BB1D7E6B3B00A2F623 /* LaunchScreen.storyboard */; };
 		FC3907C81D7E6B3B00A2F623 /* Flight_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907C71D7E6B3B00A2F623 /* Flight_listTests.swift */; };
 		FC3907D31D7E6B3B00A2F623 /* Flight_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907D21D7E6B3B00A2F623 /* Flight_listUITests.swift */; };
+		FC3907E31D7E730E00A2F623 /* masterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907E21D7E730E00A2F623 /* masterTableViewController.swift */; };
+		FC3907E51D7E738200A2F623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3907E41D7E738200A2F623 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		FC3907AF1D7E6B3B00A2F623 /* Flight_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flight_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3907B21D7E6B3B00A2F623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC3907B41D7E6B3B00A2F623 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC3907B71D7E6B3B00A2F623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC3907B91D7E6B3B00A2F623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3907BC1D7E6B3B00A2F623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		FC3907CE1D7E6B3B00A2F623 /* Flight_listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flight_listUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3907D21D7E6B3B00A2F623 /* Flight_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_listUITests.swift; sourceTree = "<group>"; };
 		FC3907D41D7E6B3B00A2F623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3907E21D7E730E00A2F623 /* masterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masterTableViewController.swift; sourceTree = "<group>"; };
+		FC3907E41D7E738200A2F623 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				FC3907B21D7E6B3B00A2F623 /* AppDelegate.swift */,
-				FC3907B41D7E6B3B00A2F623 /* ViewController.swift */,
+				FC3907E21D7E730E00A2F623 /* masterTableViewController.swift */,
+				FC3907E41D7E738200A2F623 /* ViewController.swift */,
 				FC3907B61D7E6B3B00A2F623 /* Main.storyboard */,
 				FC3907B91D7E6B3B00A2F623 /* Assets.xcassets */,
 				FC3907BB1D7E6B3B00A2F623 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					FC3907AE1D7E6B3B00A2F623 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4EPSA9R6YG;
 					};
 					FC3907C21D7E6B3B00A2F623 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3907B51D7E6B3B00A2F623 /* ViewController.swift in Sources */,
+				FC3907E51D7E738200A2F623 /* ViewController.swift in Sources */,
 				FC3907B31D7E6B3B00A2F623 /* AppDelegate.swift in Sources */,
+				FC3907E31D7E730E00A2F623 /* masterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Flight_list/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kkw.Flight-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Flight_list/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kkw.Flight-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
